@@ -33,6 +33,12 @@ Please consult https://huttenhower.sph.harvard.edu/humann2 for details.
 
 (i) Install HUMAnN2, MetaPhlAn2 (v 2.8), and KneadData. I installed HUMAnN2 and MetaPhlAn2 in an environment with Python 2.7
 
+(optional-check requirement:
+
+	conda config --add channels bioconda
+	conda config --add channels conda-forge
+) 
+
 $ conda install -c bioconda humann2
 
 $ conda install metaphlan2=2.8 
