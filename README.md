@@ -1,18 +1,18 @@
 # Pathogen-fluctuations
 -----------------------
 
-Pathogenic genera are quantified in copies per million of unique functional genes based on Illumina short-read metagenomic sequencing data, single or pair-ended. 
+Pathogenic genera are quantified in copies per million of functional genes (all/unique to genus/unique to each species within a genus) based on Illumina short-read metagenomic sequencing data, single or pair-ended. The goal is to compare multiple samples based on differences in pathogen relative abundances.
  
 
 Bacterial pathogen list: 
 -----------------------
-Genera: Aeromonas, Campylobacter, Clostridioides, Citrobacter, Enterobacter, Enterococcus, Escherichia, Helicobacter, Klebsiella, Morganella, Providencia, Salmonella, Shigella, Vibrio, Acinetobacter, Burkholderia, Haemophilus, Legionella, Mycobacterium, Proteus, Pseudomonas, Serratia, Staphylococcus, Stenotrophomonas and Streptococcus spp. 
+Genera: Aeromonas, Campylobacter, Clostridioides, Citrobacter, Enterobacter, Enterococcus, Escherichia, Helicobacter, Klebsiella, Leptospira, Listeria, Morganella, Providencia, Salmonella, Shigella, Vibrio, Acinetobacter, Burkholderia, Haemophilus, Legionella, Mycobacterium, Mycobacteroides, Mycolicibacterium, Mycolicibacter, Mycolicibacillus, Proteus, Pseudomonas, Serratia, Staphylococcus, Stenotrophomonas and Streptococcus spp. 
 
-Pathogen groups within genera: Mycobacterium avium complex (NCBI Taxonomy ID 120793), Stenotrophomonas maltophilia group (NCBI Taxonomy ID 995085), Enterobacter cloacae complex (NCBI Taxonomy ID 354276), Acinetobacter caloaceticus/baumanii complex (NCBI Taxonomy ID 909768) and Burkholderia cepacia complex (NCBI Taxonomy ID 87882).
+Pathogen groups within genera (included in functional genes databases with all/unique to each species within a genes): Mycobacterium avium complex (NCBI Taxonomy ID 120793), Stenotrophomonas maltophilia group (NCBI Taxonomy ID 995085), Enterobacter cloacae complex (NCBI Taxonomy ID 354276), Acinetobacter caloaceticus/baumanii complex (NCBI Taxonomy ID 909768) and Burkholderia cepacia complex (NCBI Taxonomy ID 87882).
 
 Protozoa list: 
 --------------
-Genera: Acanthamoeba, Naegleria, Giardia, Vermamoeba spp.
+Genera: Acanthamoeba, Cryptosporidium, Naegleria, Giardia, Vermamoeba spp.
 
 
 Method for version 1
