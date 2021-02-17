@@ -15,8 +15,8 @@ Protozoa list:
 Genera: Acanthamoeba, Naegleria, Giardia, Vermamoeba spp.
 
 
-Method
-------
+Method for version 1
+--------------------
 Step1: Generate HUMAnN2 output of UniRef90 based functional gene classification
 
 Step2: Run pathogen quantification analysis on the HUMAnN2 output
