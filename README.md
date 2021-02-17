@@ -107,7 +107,7 @@ Step2: Run pathogen quantification analysis on the HUMAnN2 output
 
 Clone the git repository https://github.com/sudeshna-ghosh/Pathogen-fluctuations
 
-python pathogens_new.py –db $DB  --o $OUTPUT_FILE $INPUT_FILE
+python pathogens_v1.py –db $DB  --o $OUTPUT_FILE $INPUT_FILE
  
     provide full path to directory with pathogens_new.py
     $DB = Name/location of pathogen database folder (posted on github)
