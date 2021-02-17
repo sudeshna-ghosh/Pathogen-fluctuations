@@ -137,7 +137,7 @@ Please consult https://huttenhower.sph.harvard.edu/humann for details.
 (optional-check requirement:
 
 	conda config --add channels defaults
-conda config --add channels bioconda
+	conda config --add channels bioconda
 	conda config --add channels conda-forge
 	conda config --add channels biobakery
 ) 
