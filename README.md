@@ -216,3 +216,13 @@ python pathogens_v2.py –db $DB  --o $OUTPUT_FILE $INPUT_FILE
     $INPUT_FILE = Name/location of the unstratified genefamilies table in cpm 
     $OUTPUT_FILE = Name/location of pathogen abundance table in cpm of unique functional genes
 	
+optional arguments:
+  -h, --help            show this help message and exit
+  --db DB, -d DB        Database folder location
+  --output_file   OUTPUT_FILE, -o OUTPUT_FILE
+                        Output filename
+  --max MAX    maximum abundance threshold : maximum abundance is
+               greater than the threshold
+  --diff DIFF  minimum difference threshold: difference between
+               maximum and minimum abundance is less than or equal to
+               the threshold
