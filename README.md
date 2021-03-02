@@ -1,7 +1,7 @@
 # Pathogen-fluctuations
 -----------------------
 
-The goal of this analysis is to estimate changes in levels of pathogens across multiple samples. This method calculates differences in pathogen relative abundances. Pathogen relative abundances are measured in copies per million of functional genes (options: all/unique to genus/unique to each species within a genus) from Illumina short-read metagenomic sequencing data, single or pair-ended. Functional gene are annotation against the UniRef90 database using Diamond [1] impremented through the HUMAnN2/MUMAnN3 pipelines [2,3]. 
+The goal of this analysis is to estimate changes in levels of pathogens across multiple samples. This method calculates differences in pathogen relative abundances. Pathogen relative abundances are measured in copies per million of functional genes (options: all/unique to genus/unique to each species within a genus) from Illumina short-read metagenomic sequencing data, single or pair-ended. Functional gene are annotation against the UniRef90 database using Diamond [1] impremented through the HUMAnN2/MUMAnN3 pipeline [2]. 
  
 
 Bacterial pathogen list: 
@@ -243,3 +243,5 @@ python pathogens_v1.py –db $DB  --o $OUTPUT_FILE $INPUT_FILE
     $INPUT_FILE = Name/location of the unstratified genefamilies table in cpm 
     $OUTPUT_FILE = Name/location of pathogen abundance table in cpm of unique functional genes
 
+1. Buchfink B, Xie C, Huson DH, "Fast and sensitive protein alignment using DIAMOND", Nature Methods 12, 59-60 (2015). doi:10.1038/nmeth.3176
+2. Franzosa EA*, McIver LJ*, Rahnavard G, Thompson LR, Schirmer M, Weingart G, Schwarzberg Lipson K, Knight R, Caporaso JG, Segata N, Huttenhower C. Species-level functional profiling of metagenomes and metatranscriptomes. Nat Methods 15: 962-968 (2018).
