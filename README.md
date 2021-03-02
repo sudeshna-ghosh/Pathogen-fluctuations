@@ -20,9 +20,10 @@ Databases
 ---------
 	All : all functional genes belong to a genus, including genes shared with other genera. This lowers the detection limit, however it can pick up related genera.
 	Unique to genus: all functional genes belonging to a genus, excliding genes shared with other genera. 
-	Unique to species belong to a genus: functional genes unique to each species belong to a genus. most conservative. 
+	Unique to species: functional genes unique to each species belong to a genus. most conservative. 
 
 Test all three databases and use one that best suits goals of the analysis. 
+old database: this database is based on functional genes unique to each species belong to a genus. It has been updated to 'Unique to species' with additional genera. 
 
 
 
