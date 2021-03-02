@@ -1,7 +1,7 @@
 # Pathogen-fluctuations
 -----------------------
 
-The goal of this analysis is to estimate changes in levels of pathogens across multiple samples. This method calculates differences in pathogen relative abundances. Pathogen relative abundances are measured in copies per million of functional genes (options: all/unique to genus/unique to each species within a genus) from Illumina short-read metagenomic sequencing data, single or pair-ended. Functional gene are annotation against the UniRef90 database using Diamond [1] impremented through the HUMAnN2/MUMAnN3 pipeline [2]. 
+The goal of this analysis is to estimate changes in levels of pathogens across multiple samples. This method calculates differences in pathogen relative abundances at the genus level. Pathogen relative abundances are measured in copies per million of functional genes (options: all/unique to genus/unique to each species within a genus) from Illumina short-read metagenomic sequencing data, single or pair-ended. Functional gene are annotation against the UniRef90 database using Diamond [1] impremented through the HUMAnN2/MUMAnN3 pipeline [2]. 
  
 
 Bacterial pathogen list: 
@@ -19,8 +19,8 @@ Note: There are minor differences between pathogen databases wrt to the list of 
 Databases
 ---------
 	All : all functional genes belong to a genus, including genes shared with other genera. This lowers the detection limit, however it can pick up related genera.
-	Unique to a genus: all functional genes belonging to a genus, excliding genes shared with other genera. 
-	Unique to each species belong to a genus: most conservative. 
+	Unique to genus: all functional genes belonging to a genus, excliding genes shared with other genera. 
+	Unique to species belong to a genus: functional genes unique to each species belong to a genus. most conservative. 
 
 Test all three databases and use one that best suits goals of the analysis. 
 
