@@ -18,9 +18,9 @@ Note: There are minor differences between pathogen databases wrt to the list of 
 
 Databases
 ---------
-All : all functional genes belong to a genus, including genes shared with other genera. This lowers the detection limit, however it can pick up related genera.
-Unique to a genus: all functional genes belonging to a genus, excliding genes shared with other genera. 
-Unique to each species belong to a genus: most conservative. 
+	All : all functional genes belong to a genus, including genes shared with other genera. This lowers the detection limit, however it can pick up related genera.
+	Unique to a genus: all functional genes belonging to a genus, excliding genes shared with other genera. 
+	Unique to each species belong to a genus: most conservative. 
 
 Test all three databases and use one that best suits goals of the analysis. 
 
