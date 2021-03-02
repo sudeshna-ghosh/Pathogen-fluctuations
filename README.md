@@ -14,7 +14,7 @@ Protozoa list:
 --------------
 Genera: Acanthamoeba, Cryptosporidium, Naegleria, Giardia, Vermamoeba spp.
 
-Note: There are minor differences between pathogen databases wrt to the list of pathogens included. 
+Note: There are minor differences between pathogen databases wrt to the list of pathogens included. Check the running log to for genera included in each database. 
 
 Databases
 ---------
