@@ -28,6 +28,7 @@ Test all three databases and use one that best suits goals of the analysis.
 
 Method for version 2
 --------------------
+(recommended)
 Step1: Generate HUMAnN (version 3) output of UniRef90 based functional gene classification
 
 Step2: Run pathogen quantification analysis on the HUMAnN output
