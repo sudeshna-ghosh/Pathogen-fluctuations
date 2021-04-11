@@ -24,8 +24,6 @@ Databases
 
 Test all three databases and use one that best suits goals of the analysis. 
 
-old database: this database is based on functional genes unique to each species belong to a genus. It has been updated to 'Unique to species' with additional genera. 
-
 
 
 Method for version 2
