@@ -20,7 +20,7 @@ Databases
 ---------
 	All : all functional genes belong to a genus, including genes shared with other genera. This lowers the detection limit, however it can pick up related genera.
 	Unique to genus: all functional genes belonging to a genus, excluding genes shared with other genera. 
-	Unique to species: functional genes unique to each species belong to a genus. most conservative. While this database may be used to estimate relative abundances at the species level, the method has not been tested for species abundance estimation.
+	Unique to species: functional genes unique to each species belong to a genus. most conservative. While this database may be used to estimate relative abundances at the species level, the method has not been tested for species abundance estimation. Run it with high '--translated identity threshold' parameter described below.
 
 Test all three databases and use one that best suits goals of the analysis. 
 
