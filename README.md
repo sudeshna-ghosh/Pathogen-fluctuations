@@ -92,6 +92,8 @@ $ humann -v --input $INPUT --threads 32 --output $OUTPUT_DIR
     $INPUT = trimmed.fastq file name/location 
 	$OUTPUT_DIR = the output directory name/location. If you have multiple samples create an empty directory to store $OUTPUT_DIR from all samples
 
+Note: you can specify the --translated identity threshold parameter to 0.0 - 100.0. Default with UniRef90 is 80.0.
+
 $ humann_join_tables -s --input $INPUT_DIR --output $TABLE --file_name genefamilies
   
     $INPUT_DIR = Name/location of directory containing HUMAnN2 output directories from samples to be joined
